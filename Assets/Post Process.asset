@@ -42,10 +42,10 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.5
-      radius: 0.6
-      sampleCount: 16
-      downsampling: 1
+      intensity: 1
+      radius: 0.4
+      sampleCount: 3
+      downsampling: 0
       forceForwardCompatibility: 0
       ambientOnly: 0
       highPrecision: 0
@@ -71,13 +71,13 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 1
     m_Settings:
-      focusDistance: 12
-      aperture: 3.5
-      focalLength: 150
+      focusDistance: 11
+      aperture: 0.8
+      focalLength: 50
       useCameraFov: 0
       kernelSize: 0
   motionBlur:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       shutterAngle: 270
       sampleCount: 10
