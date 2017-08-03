@@ -76,7 +76,8 @@ public class InputController : MonoBehaviour
 				// check for an interaction component on the object.
 				if(interactionComponent != null){
 					// the object does have a interaction component;
-					Debug.Log("we've hit an interactive component");
+					Debug.Log("we've hit an interactive component - " + interactionComponent.name);
+                    Debug.Log(interactionComponent);
 				}else{
 					// the object doesnt have an interaction component
 					// so set the interaction obj to null
@@ -101,6 +102,10 @@ public class InputController : MonoBehaviour
 
             if(interactionComponent is Rotatable){
                 interactionComponent.Interact(deltaPos);
+            }
+
+            if(interactionComponent is UsState){
+                interactionComponent.Interact();
             }
 
             prevMousePosition = currMousePosition;
