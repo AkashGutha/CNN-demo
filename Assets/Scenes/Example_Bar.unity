@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75249df9f1888e149a27a27563250f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
+  speed: -0.6
 --- !u!1 &276384245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,6 +1038,11 @@ Prefab:
     - target: {fileID: 4634761516131402, guid: 7d01b3b7a612c334bb021a5ec30c94e2, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114340239476420812, guid: 7d01b3b7a612c334bb021a5ec30c94e2,
+        type: 2}
+      propertyPath: speed
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d01b3b7a612c334bb021a5ec30c94e2, type: 2}
