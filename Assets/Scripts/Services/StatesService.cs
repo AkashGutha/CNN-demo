@@ -33,10 +33,10 @@ static class StateArray
         states.Add(new US_State("FL", "Florida"));
         states.Add(new US_State("GA", "Georgia"));
         states.Add(new US_State("HI", "Hawaii"));
+        states.Add(new US_State("IA", "Iowa"));
         states.Add(new US_State("ID", "Idaho"));
         states.Add(new US_State("IL", "Illinois"));
         states.Add(new US_State("IN", "Indiana"));
-        states.Add(new US_State("IA", "Iowa"));
         states.Add(new US_State("KS", "Kansas"));
         states.Add(new US_State("KY", "Kentucky"));
         states.Add(new US_State("LA", "Louisiana"));

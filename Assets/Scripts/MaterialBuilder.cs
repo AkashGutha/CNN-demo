@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class MaterialBuilder : MonoBehaviour
+public class MaterialBuilder
 {
-
-    // make a materials array
-    private Material[] mats = new Material[50];
-
-
-
-    void Awake()
+    public static Material[] GetMaterials()
     {
+        Material[] mats = new Material[50];
+
         // get the strings and make materials for each state
         var states = StatesService.states_names;
         var abbs = StatesService.states_abbrevation;
@@ -21,8 +17,8 @@ public class MaterialBuilder : MonoBehaviour
         {
             var mat = new Material(Shader.Find("Standard Outlined"));
             mat.name = "MT_" + abbs[i] + "_" + states[i];
-			 AssetDatabase.CreateAsset(mat, "Assets/Materials/States/" + mat.name + ".mat");
+            AssetDatabase.CreateAsset(mat, "Assets/Materials/States/" + mat.name + ".mat");
         }
-
+        return mats;
     }
 }

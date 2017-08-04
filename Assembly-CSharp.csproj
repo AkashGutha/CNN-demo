@@ -107,7 +107,9 @@
      <Compile Include="Assets\Scripts\MaterialBuilder.cs" />
      <Compile Include="Assets\Scripts\RotateAtSpeed.cs" />
      <Compile Include="Assets\Scripts\Services\StatesService.cs" />
+     <Compile Include="Assets\statenamer.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\Shaders\SmoothOutline.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
