@@ -19,7 +19,7 @@ public class MaterialBuilder : MonoBehaviour
 
         for (int i = 0; i < states.Length; i++)
         {
-            var mat = new Material(Shader.Find("Standard"));
+            var mat = new Material(Shader.Find("Standard Outlined"));
             mat.name = "MT_" + abbs[i] + "_" + states[i];
 			 AssetDatabase.CreateAsset(mat, "Assets/Materials/States/" + mat.name + ".mat");
         }
