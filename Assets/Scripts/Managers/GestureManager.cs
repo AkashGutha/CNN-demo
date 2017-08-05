@@ -8,16 +8,37 @@ using System;
 public class GestureManager : MonoBehaviour
 {
     public ApplicationManager AppManager;
+    private Camera mainCam;
+    private Ray ray;
+	private RaycastHit hit;
+
+    void Awake()
+    {
+        // get the camera ref.
+        mainCam = Camera.main;
+    }
     protected virtual void OnEnable()
     {
         // Hook into the events we need
         LeanTouch.OnFingerSwipe += OnFingerSwipe;
+        LeanTouch.OnFingerTap += OnFingerTap;
     }
 
     protected virtual void OnDisable()
     {
         // Unhook the events
         LeanTouch.OnFingerSwipe -= OnFingerSwipe;
+    }
+
+    private void OnFingerTap(LeanFinger finger)
+    {
+        // do a raycast and findout the collisions
+        ray = mainCam.ScreenPointToRay(finger.ScreenPosition);
+        if (Physics.Raycast(ray, out hit, 500))
+        {
+            Debug.Log("ray did hit : " + hit.collider.name);
+        }
+
     }
 
     private void OnFingerSwipe(LeanFinger finger)
