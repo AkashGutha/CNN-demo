@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CustomStandardShaderGUI.cs" />
+     <Compile Include="Assets\LeanTouch\Editor\LeanSelectable_Editor.cs" />
+     <Compile Include="Assets\LeanTouch\Editor\LeanTouch_Editor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
@@ -87,6 +89,7 @@
      <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Shaders\SmoothOutline.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -100,9 +103,11 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
@@ -114,6 +119,7 @@
      <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\Shaders\Outline.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
