@@ -5,19 +5,19 @@ using UnityEngine;
 public class Colorizer : MonoBehaviour
 {
     public Dictionary<string, Transform> States = new Dictionary<string, Transform>();
-
+  
     void Awake()
     {
         var states = this.transform.GetComponentsInChildren<Transform>();
         foreach (var state in states)
         {
-			if(state == this.transform) continue;
+            if (state == this.transform) continue;
             this.States.Add(state.name.Trim(), state);
-			Debug.Log(state.name.Trim());
+            // Debug.Log(state.name.Trim());
         }
 
-		// just for debugging
-		ColorizeByUnemployment();
+        // just for debugging
+        ColorizeByUnemployment();
     }
     public void ColorizeByUnemployment()
     {
@@ -25,8 +25,9 @@ public class Colorizer : MonoBehaviour
 
         foreach (var state in dataList)
         {
-			Debug.Log(state.Name);
-			States[state.Name].GetComponent<Renderer>().material.color = new Color(200,20,80);
+            // Debug.Log(state.Name);
+            float strength = ((float)state.UnemploymentDecile / 10);
+            States[state.Name].GetComponent<Renderer>().material.color = new Color(.8f, .8f , 0.8f * strength);
         }
     }
 

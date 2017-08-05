@@ -7,7 +7,7 @@ public class UnemploymentDataService
 
     static string data = @"New Mexico	 62445	 927359	 0.0673363821	 1
  Louisiana	 129105	 2121226	 0.0608633875	 1
- District of Columbia	 23602	 392448	 0.0601404517	 1
+ District Of Columbia	 23602	 392448	 0.0601404517	 1
  West Virginia 47043 783468 0.0600445711 1
  Alabama	 129835	 2168612	 0.059870092	 1
  Illinois	 384145	 6539021	 0.0587465616	 2
@@ -22,6 +22,7 @@ public class UnemploymentDataService
  Wyoming	 15960	 302335	 0.0527891246	 3
  Connecticut	 96272	 1891790	 0.0508893693	 4
  North Carolina	 246377	 4875712	 0.0505314916	 4
+ Alaska	 224328	 4524260	 0.0495833573	 4
  Kentucky	 99701	 1991981	 0.0500511802	 4
  New Jersey	 224328	 4524260	 0.0495833573	 4
  Ohio	 282301	 5713093	 0.0494129887	 4
@@ -63,7 +64,7 @@ public class UnemploymentDataService
         get
         {
             // cleaning up teh data
-            data = data.Replace('\t',' ' );
+            data = data.Replace('\t', ' ');
             data = data.Replace("  ", " ");
 
             var unemploymentDataList = new List<UnemploymentData>();
@@ -83,7 +84,7 @@ public class UnemploymentDataService
 
                 string state = "";
 
-                for (int j = 0; j <= i-4; j++)
+                for (int j = 0; j <= i - 4; j++)
                 {
                     state += words[j] + " ";
                 }

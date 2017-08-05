@@ -20,7 +20,7 @@ static class StateArray
 
     static StateArray()
     {
-        states = new List<US_State>(50);
+        states = new List<US_State>();
         states.Add(new US_State("AL", "Alabama"));
         states.Add(new US_State("AK", "Alaska"));
         states.Add(new US_State("AZ", "Arizona"));
