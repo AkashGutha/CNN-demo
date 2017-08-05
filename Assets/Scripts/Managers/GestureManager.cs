@@ -28,6 +28,7 @@ public class GestureManager : MonoBehaviour
     {
         // Unhook the events
         LeanTouch.OnFingerSwipe -= OnFingerSwipe;
+        LeanTouch.OnFingerTap -= OnFingerTap;
     }
 
     private void OnFingerTap(LeanFinger finger)
@@ -37,6 +38,7 @@ public class GestureManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 500))
         {
             Debug.Log("ray did hit : " + hit.collider.name);
+            AppManager.SendMessage("SelectState", hit.collider.gameObject, SendMessageOptions.RequireReceiver);
         }
 
     }

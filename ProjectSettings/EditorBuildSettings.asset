@@ -35,10 +35,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 3b34d0a4b336446dd98f5f9951fe6480
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Application.unity
     guid: 6ab5761eff1e14ce8a256d15a76d478c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Example_Bar.unity
     guid: 4eb8a8677e9b9d749b5f2f66ecff76d7
   - enabled: 1

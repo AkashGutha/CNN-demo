@@ -104,10 +104,6 @@ public class InputController : MonoBehaviour
                 interactionComponent.Interact(deltaPos);
             }
 
-            if(interactionComponent is UsState){
-                interactionComponent.Interact();
-            }
-
             prevMousePosition = currMousePosition;
 
         }

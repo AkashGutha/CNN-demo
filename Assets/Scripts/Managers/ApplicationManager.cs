@@ -21,11 +21,15 @@ public class ApplicationManager : MonoBehaviour {
 		
 	}
 
+	void SelectState(GameObject obj){
+		StatesManager.TakeAction(CNNDemo.ActionTypes.tapAction, obj);
+	}
+
 	void OnSwipeDown(){
-		StatesManager.TakeAction(CNNDemo.ActionTypes.swipeDownAction);
+		StatesManager.TakeAction(CNNDemo.ActionTypes.swipeDownAction, null);
 	}
 
 	void OnSwipeUp(){
-		StatesManager.TakeAction(CNNDemo.ActionTypes.swipeUpAction);
+		StatesManager.TakeAction(CNNDemo.ActionTypes.swipeUpAction, null);
 	}
 }

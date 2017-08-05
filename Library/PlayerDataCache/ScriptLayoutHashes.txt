@@ -136,7 +136,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 3475daea0d0bbf2cfeaff8f257bd482a Assembly-CSharp.dll:.GestureManager
 e7f268767823a8cd19911699aa31f1ea Assembly-CSharp.dll:Lean.Touch.LeanMultiTapInfo
 91b36326f294b619937373da443e69b6 Assembly-CSharp.dll:Lean.Touch.LeanTouch
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UsState
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -151,7 +150,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-dea860dbd2549ab768c4b843eb555f71 Assembly-CSharp.dll:.StateManager
+a335d59e2c349f4f504bf36a1ca87ef3 Assembly-CSharp.dll:.StateManager
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.RotateAtSpeed
 6ad53a0b0e1b7bbd14016abad1dad63a Assembly-CSharp.dll:Lean.Touch.LeanCameraMove
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -183,3 +182,4 @@ e151305212b6d9dd07d68e464b461420 Assembly-CSharp.dll:Lean.Touch.LeanFingerTap
 71ce620ec5da7d5a264342d2edcd1dec Assembly-CSharp.dll:Lean.Touch.LeanPitchYawSmooth
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableRendererColor
 38cd8bab352980a9895e8804a5c01c82 Assembly-CSharp.dll:Lean.Touch.LeanSwipeRigidbody2DNoRelease
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchInteract

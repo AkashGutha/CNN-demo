@@ -6,6 +6,7 @@
         public static Action swipeDownAction = new Action("SwipeDown");
         public static Action swipeRightAction = new Action("SwipeRight");
         public static Action swipeLeftAction = new Action("SwipeLeft");
+        public static Action tapAction = new Action("Tap");
 
     }
 }

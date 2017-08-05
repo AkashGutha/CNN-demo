@@ -144,7 +144,7 @@
      <Compile Include="Assets\Scripts\InputController.cs" />
      <Compile Include="Assets\Scripts\Interactables\Interactable.cs" />
      <Compile Include="Assets\Scripts\Interactables\Rotatable.cs" />
-     <Compile Include="Assets\Scripts\Interactables\UsState.cs" />
+     <Compile Include="Assets\Scripts\Interactables\TouchInteract.cs" />
      <Compile Include="Assets\Scripts\Managers\ApplicationManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GestureManager.cs" />
      <Compile Include="Assets\Scripts\Managers\StateManager.cs" />

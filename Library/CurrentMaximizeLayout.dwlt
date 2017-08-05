@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1030
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 9569
+  controlID: 15352
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,7 +95,7 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
+  m_CurrentColorSpace: 1
   m_LastWindowPixelSize: {x: 1476, y: 701}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1478
     height: 1030
-  m_MinSize: {x: 434, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 436, y: 492}
+  m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 9570
+  controlID: 15353
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,9 +182,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 394.23438, y: 326.5799, z: 51.9161}
+    m_Target: {x: 268.2281, y: 168.78026, z: -1.7773302}
     speed: 2
-    m_Value: {x: 394.23438, y: 326.5799, z: 51.9161}
+    m_Value: {x: 268.2281, y: 168.78026, z: -1.7773302}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -207,13 +207,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.12723972, y: 0.058580823, z: -0.007528116, w: -0.99011195}
+    m_Target: {x: -0.1812407, y: 0.10510151, z: -0.019484747, w: -0.9776123}
     speed: 2
-    m_Value: {x: -0.12723972, y: 0.058580827, z: -0.0075281165, w: -0.990112}
+    m_Value: {x: -0.1812407, y: 0.1051015, z: -0.019484747, w: -0.97761226}
   m_Size:
-    m_Target: 1099.0986
+    m_Target: 1436.5438
     speed: 2
-    m_Value: 1099.0986
+    m_Value: 1436.5438
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -244,10 +244,10 @@ MonoBehaviour:
     y: 722
     width: 1478
     height: 308
-  m_MinSize: {x: 434, y: 271}
-  m_MaxSize: {x: 14004, y: 10021}
+  m_MinSize: {x: 436, y: 271}
+  m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 9571
+  controlID: 15354
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,9 +301,9 @@ MonoBehaviour:
     height: 287
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c010000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 7839fcffe839fcff2042fcff1081fcff7089fcff1afcffff00000000
+    m_ExpandedIDs: 487bf3ff024af4ff36e8f4ff0ae9f4ff62eaf4ff06ebf4ff90edf4ffd603f5ff9608f5ff5615f5ff7839fcffe839fcff2042fcff1081fcff7089fcff1afcffff0000000090630100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_LastProjectPath: /Users/Akash/Desktop/CNN-demo
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 54}
+    scrollPos: {x: 0, y: 70}
     m_SelectedIDs: 58270000
     m_LastClickedID: 10072
     m_ExpandedIDs: 00000000582700006c280000ce28000030290000142c00003a2c0000cc2e000000ca9a3bffffff7f
@@ -454,8 +454,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8c010000
-    m_LastClickedInstanceID: 396
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -473,7 +473,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -481,7 +481,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 50}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
 --- !u!114 &11

@@ -13,6 +13,11 @@ public class InfoTextSpawn : MonoBehaviour
 
     public float YOffset;
     private GameObject info;
+
+    void Awake()
+    {
+        mainCanvas = GameObject.FindObjectOfType<Canvas>();
+    }
     // Use this for initialization
     void Start()
     {
@@ -24,7 +29,7 @@ public class InfoTextSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 screenPos = Camera.main.WorldToScreenPoint(this.transform.position + new Vector3(0, Anchor.transform.localScale.y/2+YOffset,0 ) );
+        Vector2 screenPos = Camera.main.WorldToScreenPoint(this.transform.position + new Vector3(0, Anchor.transform.localScale.y/4+YOffset,0 ) );
         info.transform.position = screenPos;
     }
 

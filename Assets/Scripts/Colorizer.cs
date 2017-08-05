@@ -27,7 +27,7 @@ public class Colorizer : MonoBehaviour
         {
             // Debug.Log(state.Name);
             float strength = ((float)state.UnemploymentDecile / 5);
-            States[state.Name].GetComponent<Renderer>().material.color = new Color(.7f, .7f , 0.3f * strength);
+            States[state.Name].GetComponent<Renderer>().material.color = new Color(.8f, .8f , 0.45f * strength);
         }
     }
 
