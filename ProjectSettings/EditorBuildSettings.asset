@@ -38,3 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Application.unity
     guid: 6ab5761eff1e14ce8a256d15a76d478c
+  - enabled: 1
+    path: Assets/Scenes/Example_Bar.unity
+    guid: 4eb8a8677e9b9d749b5f2f66ecff76d7
+  - enabled: 1
+    path: Assets/Scenes/Unemployment.unity
+    guid: c26c6527ff73745d090462ecbd8e660c
