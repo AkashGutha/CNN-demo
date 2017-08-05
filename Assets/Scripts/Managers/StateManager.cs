@@ -15,6 +15,11 @@ public class StateManager : MonoBehaviour
         State = CNNDemo.States.UnemplpoyedViewState;
         USA_Animator = USA_States.GetComponent<Animator>();
     }
+
+	void Start()
+	{
+		// check the state and apply the colors accordingly
+	}
     public string NextState()
     {
         return "null";

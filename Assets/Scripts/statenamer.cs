@@ -14,7 +14,7 @@ public class statenamer : MonoBehaviour
         for (int i = 0; i < children.Length; i++)
         {
             if (children[i] == this.transform) continue;
-            children[i].name = state_names[i] + " ( " + state_abbs[i] + " )";
+            children[i].name = state_names[i];
 
             children[i].GetComponent<Renderer>().material = Resources.Load("States_Materials/MT_" + state_abbs[i] + "_" + state_names[i], typeof(Material)) as Material; ;
         }

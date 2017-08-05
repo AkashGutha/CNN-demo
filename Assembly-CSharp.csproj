@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GestureManager.cs" />
      <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMove.cs" />
      <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraMoveSmooth.cs" />
      <Compile Include="Assets\LeanTouch\Examples\Scripts\LeanCameraZoom.cs" />
@@ -140,6 +139,8 @@
      <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\Scripts\Colorizer.cs" />
+     <Compile Include="Assets\Scripts\GestureManager.cs" />
      <Compile Include="Assets\Scripts\InfoTextSpawn.cs" />
      <Compile Include="Assets\Scripts\InputController.cs" />
      <Compile Include="Assets\Scripts\Interactables\Interactable.cs" />
@@ -151,12 +152,13 @@
      <Compile Include="Assets\Scripts\Managers\State.cs" />
      <Compile Include="Assets\Scripts\Managers\StateManager.cs" />
      <Compile Include="Assets\Scripts\Managers\States.cs" />
-     <Compile Include="Assets\Scripts\Managers\TouchManager.cs" />
      <Compile Include="Assets\Scripts\MaterialBuilder.cs" />
      <Compile Include="Assets\Scripts\RandomizeHeights.cs" />
      <Compile Include="Assets\Scripts\RotateAtSpeed.cs" />
      <Compile Include="Assets\Scripts\Services\StatesService.cs" />
-     <Compile Include="Assets\statenamer.cs" />
+     <Compile Include="Assets\Scripts\Services\UnemploymentData.cs" />
+     <Compile Include="Assets\Scripts\Services\UnemploymentDataService.cs" />
+     <Compile Include="Assets\Scripts\statenamer.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
      <None Include="Assets\Shaders\SmoothOutline.shader" />

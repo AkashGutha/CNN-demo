@@ -8,6 +8,11 @@ public class ApplicationManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		// // testing
+		// foreach(var data in  UnemploymentDataService.UnemploymentDataList){
+		// 	Debug.Log(data.Name);
+		// }
 		
 	}
 	
