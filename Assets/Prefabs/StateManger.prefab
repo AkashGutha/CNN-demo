@@ -52,3 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   USA_States: {fileID: 0}
+  Bars: {fileID: 1869297047869876, guid: 11b0e73775b3f41e09bf3f03db1054e4, type: 2}
+  VotesPanelAnimator: {fileID: 0}
+  GlobeAnimtor: {fileID: 0}

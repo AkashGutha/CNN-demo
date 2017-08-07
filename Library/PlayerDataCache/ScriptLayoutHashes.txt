@@ -133,6 +133,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 1ef852089ee2a39ddee9440e721488cf Assembly-CSharp.dll:Lean.Touch.LeanTranslateSmooth
 205965134a5874db410d674ebdf33ba7 Assembly-CSharp.dll:.ExampleWheelController
 0b297564897382f4d5c8cd540e51e2fe Assembly-CSharp.dll:Lean.Touch.LeanPressSelect
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchInteract
 3475daea0d0bbf2cfeaff8f257bd482a Assembly-CSharp.dll:.GestureManager
 e7f268767823a8cd19911699aa31f1ea Assembly-CSharp.dll:Lean.Touch.LeanMultiTapInfo
 91b36326f294b619937373da443e69b6 Assembly-CSharp.dll:Lean.Touch.LeanTouch
@@ -182,4 +183,3 @@ e151305212b6d9dd07d68e464b461420 Assembly-CSharp.dll:Lean.Touch.LeanFingerTap
 71ce620ec5da7d5a264342d2edcd1dec Assembly-CSharp.dll:Lean.Touch.LeanPitchYawSmooth
 493c211ab85ec2db8c090d3ba6c0a013 Assembly-CSharp.dll:Lean.Touch.LeanSelectableRendererColor
 38cd8bab352980a9895e8804a5c01c82 Assembly-CSharp.dll:Lean.Touch.LeanSwipeRigidbody2DNoRelease
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TouchInteract
