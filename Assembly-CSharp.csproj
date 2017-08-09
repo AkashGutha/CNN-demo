@@ -155,6 +155,7 @@
      <Compile Include="Assets\Scripts\Models\UnemploymentData.cs" />
      <Compile Include="Assets\Scripts\RandomizeHeights.cs" />
      <Compile Include="Assets\Scripts\RotateAtSpeed.cs" />
+     <Compile Include="Assets\Scripts\Services\CountiesService.cs" />
      <Compile Include="Assets\Scripts\Services\StatesService.cs" />
      <Compile Include="Assets\Scripts\Services\UnemploymentDataService.cs" />
      <Compile Include="Assets\Scripts\statenamer.cs" />

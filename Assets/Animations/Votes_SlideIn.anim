@@ -26,11 +26,17 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 0.55
+        value: -116.88942
+        inSlope: 1383.5894
+        outSlope: 1383.5894
+        tangentMode: 0
+      - serializedVersion: 2
         time: 1
         value: 16
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: -10.94268
+        outSlope: -10.94268
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -85,11 +91,17 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 0.55
+        value: -116.88942
+        inSlope: 1383.5894
+        outSlope: 1383.5894
+        tangentMode: 0
+      - serializedVersion: 2
         time: 1
         value: 16
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: -10.94268
+        outSlope: -10.94268
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
